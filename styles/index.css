@@ -1,0 +1,53 @@
+body {background-color:#222;}
+#birth_wrap {
+    background-color:#fff;
+    width:440px; height:956px;
+    margin:0 auto;
+    background-image:url(../images/bg1.jpg);
+    background-size:200% auto;/* w(너비) - h(높이) 순서 | 한쪽 크기를 정하고 다른 한쪽은 auto (자동비율,비율을 지키라는 뜻)*/
+    background-repeat:no-repeat;/* 화면보다 이미지가 작을 때 */
+    background-position:left center;/* x축 y축 순서 */
+    padding:115px 0 0;
+    text-align:center;
+}
+#birth_wrap #title {
+    margin-bottom:40px;
+}
+#birth_wrap #title p {
+    margin-bottom:12px;
+    font-size:1.75rem;
+}
+#birth_wrap #title h1 {
+    font-size:1.75rem;
+}
+#birth_wrap #title h1 span {
+    font-weight:700;
+}
+#birth_wrap #birthday_frm {}
+#birth_wrap #birthday_frm > * {
+    border-radius: 20px;
+    margin:0 auto;
+}
+#birth_wrap #birthday_frm input {
+    width:120px; height:32px;
+    text-align:center;
+    background-color:#f7f7f7;
+    display:block;
+    color:#000;
+}
+#birth_wrap #birthday_frm input::placeholder {color:#ccc}
+#birth_wrap #birthday_frm input:focus {border:2px solid yellowgreen}
+#birth_wrap #birthday_frm #user_year {}
+#birth_wrap #birthday_frm #user_month {
+    margin:12px auto 12px;
+}
+#birth_wrap #birthday_frm #user_day {}
+#birth_wrap #birthday_frm #find_btn {
+    margin-top:40px;
+    color:#eee;
+    background-color:#000;
+    width:200px; height:44px;
+}
+#birth_wrap #birthday_frm #find_btn:hover {
+    background-color:#555;
+}

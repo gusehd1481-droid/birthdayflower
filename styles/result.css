@@ -1,0 +1,59 @@
+body {
+    background-color: #000;
+}
+#birth_wrap {
+    width:440px; height:956px;
+    background-color:#fff;
+    margin:0 auto;
+    background-image:url(../images/bg3.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    padding:115px 0 0;
+    text-align:center;
+}
+#birth_wrap #title {
+    font-size:1.75rem;
+}
+#birth_wrap #title p {
+    margin:12px auto;
+}
+#birth_wrap #title h1 {
+    font-family:'MaruBuri-B,'serif;
+}
+#birth_wrap #title h1 span {
+    font-weight:700;
+}
+#birth_wrap #result {
+    padding:40px 0;
+    font-size:1.25rem;
+}
+
+#birth_wrap #result p {
+    line-height:1.5;
+}
+#birth_wrap #result .birthday {
+    font-size:1.0rem;
+    font-style:italic;
+}
+#birth_wrap #result > * {}
+#birth_wrap #result span {
+    font-weight:700;
+}
+#birth_wrap #btn {}
+#birth_wrap #btn > * {
+    display:block
+}
+#birth_wrap #btn #share_btn {
+    width:200px; line-height:44px;
+    background-color:#000;
+    color:#fff;
+    border-radius:20px;
+    margin:0 auto 15px;
+}
+#birth_wrap #btn #share_btn:hover {
+    background-color:#555;
+}
+#birth_wrap #btn #home_btn {
+    text-decoration:underline;
+}

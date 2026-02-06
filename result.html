@@ -6,22 +6,25 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Flower of My Birth Day</title>
-    <link rel="shortcut icon" href="../image_video/images/birth_favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <!-- <link href="https://hangeul.pstatic.net/hangeul_static/css/maru-buri.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/result.css">
 </head>
 <body>
-    <div id="birth_wrap" style="background-image:url(./flower_images.html/bg2.jpg);">
+    <div id="birth_wrap">
         <div id="title">
-            <h1>The Flower of My Birth Day</h1>
-            <h1>나의 탄생화 찾기</h1>
+            <p>The Flower of My Birth Day</p>
+            <h1>나의 <span>탄생화</span> 찾기</h1>
         </div>
         <div id="result">
-            <p class="birthday">birthday Month 12</p>
-            <p class="flower">당신의 탄생화는 "수선화"입니다.</p>
+            <p class="birthday">May 28th</p>
+            <p class="flower">당신의 탄생화는 <span>" 박하 "</span>입니다.</p>
             <p class="meaning">꽃말 : 자기애, 자존심, 외로움</p>
         </div>
-        <div>
-            <a href="#" class="share_btn">내 탄생화와 꽃말 공유하기</a>
-            <a href="./birthday_flower.html" class="home_btn">처음으로 돌아가기</a>
+        <div id="btn">
+            <button type="button" id="share_btn" onclick="window.location.href='https://www.kakaocorp.com/page/'">내 탄생화와 꽃말 공유하기</button>
+            <a href="./index.html" id="home_btn">처음으로 돌아가기</a>
         </div>
     </div>
 </body>
